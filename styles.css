@@ -98,6 +98,37 @@ padding: 0rem 0.5rem;
     color: var(--primary-color);
 } 
 
+.heroproject {
+    padding: 2rem;
+    padding: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    }
+
+.heroproject .hero-heading {
+    text-align: center;
+    color:var(--light-red)
+}
+.heroproject .heroproject-image{
+    display: block;  
+margin-left: auto;  
+margin-right: auto;    
+padding: 5px;  
+} 
+.heroproject .hero-heading .heading-inverted {
+    color: var(--primary-color);
+} 
+
+.heroproject .resize {
+    width: 400px;
+    height: auto;
+}
+
+
 .section {
     padding: 2rem;
 }
