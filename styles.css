@@ -34,6 +34,7 @@ body {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white
+    
 }
 
 .link-secondary{
@@ -159,9 +160,5 @@ padding: 5px;
 }
 
 .footer ul {
-    padding-inline-start: opx;
-}
-
-.footer ol {
     padding-inline-start: opx;
 }
