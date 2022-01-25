@@ -110,26 +110,24 @@ padding: 0rem 0.5rem;
     margin: auto;
     }
 
-.heroproject .hero-heading {
+.hero1 .hero-heading {
     text-align: center;
     color:var(--light-red)
 }
-.heroproject .heroproject-image{
+.hero1 .hero1-image{
     display: block;  
 margin-left: auto;  
 margin-right: auto;    
 padding: 5px;  
 } 
-.heroproject .hero-heading .heading-inverted {
+.hero1 .hero-heading .heading-inverted {
     color: var(--primary-color);
 } 
 
-.heroproject .resize {
-    width: 400px;
+.hero1 .resize {
+    width: 600px;
     height: auto;
 }
-
-
 .section {
     padding: 2rem;
 }
@@ -161,4 +159,8 @@ padding: 5px;
 
 .footer ul {
     padding-inline-start: opx;
+}
+
+.href {
+    color: var(--primary-color);
 }
