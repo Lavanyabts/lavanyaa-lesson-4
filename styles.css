@@ -160,7 +160,3 @@ padding: 5px;
 .footer ul {
     padding-inline-start: opx;
 }
-
-.href {
-    color: var(--primary-color);
-}
