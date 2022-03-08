@@ -16,8 +16,7 @@ body {
 
 
 .container {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding: 2rem 0rem;
 }
 
 .container-center {
@@ -49,6 +48,7 @@ hr {
 
 .list-non-bullet {
     list-style:none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -99,30 +99,13 @@ padding: 0rem 0.5rem;
     color: var(--primary-color);
 } 
 
-.heroproject {
-    padding: 2rem;
-    padding: 5rem;
-}
-.hero1 .hero-heading {
-    text-align: center;
-    color:var(--light-red)
-}
-.hero1 .hero1-image{
-    display: block;  
-margin-left: auto;  
-margin-right: auto;    
-padding: 5px;  
-} 
-.hero1 .hero-heading .heading-inverted {
-    color: var(--primary-color);
-} 
 
-.hero1 .resize {
-    width: 600px;
-    height: auto;
-}
+
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 .section h1 {
@@ -155,7 +138,15 @@ padding: 5px;
 }
 
 div {
-    padding: 2rem;
+    padding: 20px;
     text-align: center;
 }
 
+.list-item-inline {
+    display: inline;
+    padding: 0rem;
+}
+
+.container-center {
+    width: auto;
+}
